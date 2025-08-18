@@ -11,7 +11,7 @@ const int stepsPerRevolution = 2048;
 
 // Create a Stepper object named myStepper
 // Connected to digital pins 8, 10, 9, 11 (sequence matters!)
-Stepper myStepper(stepsPerRevolution, 8, 10, 9, 11);
+Stepper myStepper(stepsPerRevolution, 7, 6, 5, 4);
 
 void setup() {
   // Start serial communication for debugging and monitoring
