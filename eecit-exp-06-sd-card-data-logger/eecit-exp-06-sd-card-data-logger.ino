@@ -7,6 +7,11 @@
 #include <SPI.h>
 
 // Define chip select pin for SD card module
+// change this to match your SD shield or module;
+// Arduino Ethernet shield: pin 4
+// Adafruit SD shields and modules: pin 10
+// Sparkfun SD shield: pin 8
+// MKRZero SD: SDCARD_SS_PIN
 const int chipSelect = 10;
 
 // Define analog pin for LM35 temperature sensor
